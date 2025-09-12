@@ -1,18 +1,14 @@
-# Usa una imagen oficial de PHP con servidor web (Apache)
+# 1. Imagen base: PHP 8.2 con Apache
 FROM php:8.2-apache
 
-# Habilitar mod_rewrite para URLs amigables (por si acaso)
-RUN a2enmod rewrite
-
-# Copia tus archivos al directorio del servidor web
+# 2. Copiar todo el proyecto al contenedor
 COPY . /var/www/html/
 
-# Permite que Apache pueda leer el directorio
-RUN chown -R www-data:www-data /var/www/html && \
-    chmod -R 755 /var/www/html
+# 3. Activar mod_rewrite si lo necesitas
+RUN a2enmod rewrite
 
-# Expone el puerto 80 (HTTP)
+# 4. Exponer el puerto 80
 EXPOSE 80
 
-# Inicia el servidor Apache
+# 5. Comando por defecto: Apache en primer plano
 CMD ["apache2-foreground"]
