@@ -129,7 +129,7 @@
 
   <!-- === PROMOCIÓN 1: Book Básico === -->
   <div class="promo-seccion">
-    <img src="images/eventos/PromoBook2.jpeg" alt="Book Básico" class="promo-imagen">
+    <img src="/images/eventos/PromoBook2.jpeg" alt="Book Básico" class="promo-imagen">
     <h3 class="promo-titulo">Book Básico</h3>
     <div class="promo-precio">$105</div>
     <p class="promo-descripcion">
@@ -150,7 +150,7 @@
 
   <!-- === PROMOCIÓN 2: Book Premium === -->
   <div class="promo-seccion">
-    <img src="images/eventos/PromoBook1.jpeg" alt="Book Premium" class="promo-imagen">
+    <img src="/images/eventos/PromoBook1.jpeg" alt="Book Premium" class="promo-imagen">
     <h3 class="promo-titulo">Book Premium</h3>
     <div class="promo-precio">$180</div>
     <p class="promo-descripcion">
@@ -172,7 +172,7 @@
 
   <!-- === PROMOCIÓN 3: Book VIP === -->
   <div class="promo-seccion">
-    <img src="images/eventos/PromoBook3.jpeg" alt="Book VIP" class="promo-imagen">
+    <img src="/images/eventos/PromoBook3.jpeg" alt="Book VIP" class="promo-imagen">
     <h3 class="promo-titulo">Book VIP</h3>
     <div class="promo-precio">$275</div>
     <p class="promo-descripcion">
